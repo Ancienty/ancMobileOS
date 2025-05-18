@@ -1,4 +1,10 @@
 package com.ancienty.os.core.process;
 
-public class ProcessState {
+public enum ProcessState {
+    NEW,
+    READY,
+    RUNNING,
+    WAITING,
+    SUSPENDED,
+    TERMINATED
 }
